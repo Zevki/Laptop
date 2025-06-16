@@ -1,33 +1,33 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import { MoveLeft, MoveRight } from "lucide-react";
+import { MoveRight } from "lucide-react";
 
 const Banner = () => {
   const products = [
     {
       id: 1,
-      title: "Best Furniture collection for your interior",
-      subTitle: "welcome to chairs",
+      title: "The best choice for your work",
+      subTitle: "welcome to laptops",
       image: "/src/assets/Banner/laptop.png",
     },
     {
       id: 2,
-      title: "Best Furniture collection for your interior",
-      subTitle: "welcome to chairs",
-      image: "/src/assets/Banner/banner_image.png",
+      title: "Can talk anywhere",
+      subTitle: "welcome to phones",
+      image: "/src/assets/Banner/phone.png",
     },
     {
       id: 3,
-      title: "Best Furniture collection for your interior",
-      subTitle: "welcome to chairs",
-      image: "/src/assets/Banner/banner_image.png",
+      title: "Play games with the most powerful performance",
+      subTitle: "welcome to vga",
+      image: "/src/assets/Banner/vga.png",
     },
     {
       id: 4,
-      title: "Best Furniture collection for your interior",
-      subTitle: "welcome to chairs",
-      image: "/src/assets/Banner/banner_image.png",
+      title: "Experience ultimate convenience",
+      subTitle: "Others",
+      image: "/src/assets/Banner/headphone.png",
     },
   ];
 

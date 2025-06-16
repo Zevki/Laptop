@@ -1,4 +1,5 @@
 import {
+  Armchair,
   Check,
   Heart,
   Info,
@@ -13,20 +14,20 @@ import { Link, NavLink } from "react-router";
 const Navbar = () => {
   return (
     <div>
-      {/* navbar top */}
+      {/* nabvar top  */}
       <div className="navbar_top flex items-center justify-center bg-[#272343] h-[45px] w-full">
         <div className="lg:container flex justify-between items-center">
           <p className="flex items-center gap-2 text-sm font-inter font-normal text-white capitalize">
-            <Check /> Free on all order over $50
+            <Check /> Free on all orders over $50
           </p>
 
           <div className="navbar_top_right flex items-center gap-6">
             <select
               defaultValue="Server location"
-              className="bg-none h-[30px] w-[70px] text-sm font-inter font-normal capitalize text-white"
+              className="bg-none h-[30px] w-[70px] text-sm font-inter font-normal capitalize text-white "
             >
               <option>eng</option>
-              <option>vietnam</option>
+              <option>vie</option>
             </select>
 
             <button>
@@ -43,16 +44,15 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* navbar middle */}
-      <div className="navbar_middle flex items-center justify-center bg-[#d4d3da] h-[84px] w-full">
+      {/* navbar middle  */}
+      <div className="navbar_middle flex items-center justify-center bg-[#f0f2f3] w-full h-[84px]">
         <div className="lg:container grid grid-cols-3 items-center">
           <div className="logo_wrapper">
             <Link
               to="/"
-              className="text-3x1 text-black font-inter font-medium capitalize flex items-center gap-2"
+              className="text-3xl text-black font-inter font-medium capitalize flex items-center gap-2"
             >
-              <Laptop size="2rem" color="#029fae" />
-              LaptopTZ
+              <Laptop size="2rem" color="#029fae" /> LaptopTZ
             </Link>
           </div>
 
@@ -65,12 +65,12 @@ const Navbar = () => {
               />
 
               <button className="absolute to-50% right-4 translate-y-1/2">
-                <Search size="22px" color="#272343" />{" "}
+                <Search size="22px" color="#272343" />
               </button>
             </form>
           </div>
 
-          {/* navbar middle right */}
+          {/* navbar middle right  */}
           <div className="navbar_middle_right flex items-center gap-4">
             <button className="btn capitalize">
               <ShoppingCart /> cart{" "}
@@ -104,7 +104,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* navbar bottom */}
+      {/* navbar bottom  */}
       <div className="navbar_bottom flex items-center justify-center w-full h-[75px] bg-white border-b-[1px] border-[#e1e3e5]">
         <div className="lg:container flex items-center justify-between">
           <div className="navbar_bottom_left flex items-center gap-8">
@@ -122,19 +122,19 @@ const Navbar = () => {
                 className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
               >
                 <li>
-                  <a>Chair</a>
+                  <a>Laptop</a>
                 </li>
                 <li>
-                  <a>Pant</a>
+                  <a>Phone</a>
                 </li>
                 <li>
-                  <a>Shirt</a>
+                  <a>VGA</a>
                 </li>
                 <li>
-                  <a>T-Shirt</a>
+                  <a>CPU</a>
                 </li>
                 <li>
-                  <a>T-Shirt</a>
+                  <a>Others</a>
                 </li>
               </ul>
             </div>
