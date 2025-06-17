@@ -42,11 +42,11 @@
 }
 
 .slick-prev {
-    left: 500px !important;
+    left: -95px !important;
 }
 
 .slick-next {
-    right: 50px !important;
+    right: -70px !important;
 }
 
 .slider_container>.slick-slider>.slick-prev:before,

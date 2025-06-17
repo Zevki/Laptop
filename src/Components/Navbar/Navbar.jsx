@@ -1,5 +1,4 @@
 import {
-  Armchair,
   Check,
   Heart,
   Info,
@@ -18,7 +17,7 @@ const Navbar = () => {
       <div className="navbar_top flex items-center justify-center bg-[#272343] h-[45px] w-full">
         <div className="lg:container flex justify-between items-center">
           <p className="flex items-center gap-2 text-sm font-inter font-normal text-white capitalize">
-            <Check /> Free on all orders over $50
+            <Check /> Free on all orders over 100.000đ
           </p>
 
           <div className="navbar_top_right flex items-center gap-6">
@@ -57,11 +56,11 @@ const Navbar = () => {
           </div>
 
           <div className="search_box">
-            <form action="#" className="max-w-[443px] h-[44px] relative">
+            <form action="#" className="max-w-[400px] h-[44px] relative">
               <input
                 type="text"
                 placeholder="Search here..."
-                className="max-w-[443px] w-full h-full bg-white rounded-lg  pl-4"
+                className="max-w-[400px] w-full h-full bg-white rounded-lg  pl-4"
               />
 
               <button className="absolute to-50% right-4 translate-y-1/2">
