@@ -6,28 +6,35 @@ import Login from "../Pages/Auth/Login/Login";
 import Register from "../Pages/Auth/Register/Register";
 import Error from "../Pages/Error/Error";
 import AuthCheck from "../AuthCheck/AuthCheck";
+import Footer from "../Components/Footer/Footer";
 
 const MainLayout = () => {
-    return (
-        <BrowserRouter>
-        {/* navbar */}
-        <Navbar />
+  return (
+    <BrowserRouter>
+      {/* navbar */}
+      <Navbar />
 
-        <Routes>
-            <Route path="/" element={
-                <AuthCheck>
-                    <Home/>
-                </AuthCheck>
-                }/>
-            <Route path="auth" element={<Auth />}>
-                <Route path="login" element={<Login/>} />
-                <Route path="register" element={<Register />} />
-            </Route>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <AuthCheck>
+              <Home />
+            </AuthCheck>
+          }
+        />
+        <Route path="auth" element={<Auth />}>
+          <Route path="login" element={<Login />} />
+          <Route path="register" element={<Register />} />
+        </Route>
 
-            <Route path="*" element={<Error />} />
-        </Routes>
-        </BrowserRouter>
-    );
+        <Route path="*" element={<Error />} />
+      </Routes>
+
+      {/* footer component  */}
+      <Footer />
+    </BrowserRouter>
+  );
 };
 
 export default MainLayout;

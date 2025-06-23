@@ -11,7 +11,7 @@ const Features = () => {
       status: "New",
       price: "13.490.000 VND",
       image: "/src/assets/features/laptop1.png",
-    //   currentPrice: "$200",
+
     },
     {
       title: "Laptop Dell Inspiron 15 3520 i5U165W11BLU-FP",
