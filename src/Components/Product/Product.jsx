@@ -255,14 +255,14 @@ const Product = () => {
                             </div>
                             <div className="feature_content">
                                 <div className="flex items-center justify-between">
-                                    <h4 className="text-base text-[#007580] capitalize font-inter font-normal mb-4">{product?.title}</h4>
-                                    <span className="bg-[#007580] h-[44px] w-[44px] rounded-lg flex items-center justify-center"><ShoppingCart size='1.5rem' color="#fff" /></span>
+                                    <h4 className="text-base text-[#2eb4c0] capitalize font-inter font-normal mb-4">{product?.title}</h4>
+                                    <span className="bg-[#2eb4c0] h-[44px] w-[44px] rounded-lg flex items-center justify-center"><ShoppingCart size='1.5rem' color="#fff" /></span>
                                 </div>
                                 <p className="text-xl flex items-center gap-2 text-[#272343] font-semibold font-inter ">
                                     {product?.price}
                                     {
                                         product?.currentPrice && (
-                                            <span className="text-sm text-[#9a9caa] font-inter font-normal">{product?.currentPrice}</span>
+                                            <span className="text-sm text-[#999ba6] font-inter font-normal">{product?.currentPrice}</span>
                                         )
                                     }
                                 </p>

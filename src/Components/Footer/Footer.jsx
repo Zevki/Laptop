@@ -12,7 +12,7 @@ import { Link } from "react-router";
 const Footer = () => {
   return (
     <footer>
-      <div className="footer_top mx-h-[343px] w-full border-t border-b border-[#e1e3e5] pt-[80px] pb-[60px]">
+      <div className="footer_top mx-h-[343px] w-full border-t border-b border-[#d9dadb] pt-[80px] pb-[60px]">
         <div className="lg:container mx-auto">
           <div className="grid grid-cols-4">
             <div>
@@ -22,67 +22,67 @@ const Footer = () => {
                   to="/"
                   className="text-3xl text-black font-inter font-medium capitalize flex items-center gap-2"
                 >
-                  <Armchair size="2rem" color="#029fae" /> comforty
+                  <Armchair size="2rem" color="#2eb4c0" /> laptopTZ
                 </Link>
               </div>
 
-              <p className="text-base text-[#272343] font-inter font-normal mb-4 max-w-[350px]">
+              <p className="text-base text-[#262240] font-inter font-normal mb-4 max-w-[350px]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Temporibus repellat vero nulla! Quibusdam, reiciendis maiores
                 fugiat atque aliquam molestiae vero?
               </p>
 
               <div className="footer_social flex items-center gap-3">
-                <Link className="p-3 rounded-full border-[#007580] inline-block border-[1px]">
-                  <Facebook size="1.5rem" color="#007580" />
+                <Link className="p-3 rounded-full border-[#2eb4c0] inline-block border-[1px]">
+                  <Facebook size="1.5rem" color="#2eb4c0" />
                 </Link>
 
                 <Link className="p-3 inline-block">
-                  <Twitter size="1.5rem" color="#007580" />
+                  <Twitter size="1.5rem" color="#2eb4c0" />
                 </Link>
 
                 <Link className="p-3 inline-block">
-                  <Instagram size="1.5rem" color="#007580" />
+                  <Instagram size="1.5rem" color="#2eb4c0" />
                 </Link>
 
                 <Link className="p-3 inline-block">
-                  <Youtube size="1.5rem" color="#007580" />
+                  <Youtube size="1.5rem" color="#2eb4c0" />
                 </Link>
               </div>
             </div>
 
             <div className="footer_wrapper">
-              <h3 className="text-xl text-[#9a9caa] font-inter font-medium uppercase">
+              <h3 className="text-xl text-[#9fa1ab] font-inter font-medium uppercase">
                 category
               </h3>
               <ul className="space-y-2 mt-4">
                 <li>
-                  <Link className="text-base text-[#272343] font-inter font-normal capitalize">
+                  <Link className="text-base text-[#282441] font-inter font-normal capitalize">
                     laptop
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-base text-[#272343] font-inter font-normal capitalize">
+                  <Link className="text-base text-[#282441] font-inter font-normal capitalize">
                     phone
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-base text-[#272343] font-inter font-normal capitalize">
+                  <Link className="text-base text-[#282441] font-inter font-normal capitalize">
                     pc
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-base text-[#272343] font-inter font-normal capitalize">
+                  <Link className="text-base text-[#282441] font-inter font-normal capitalize">
                     vga
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-base text-[#272343] font-inter font-normal capitalize">
+                  <Link className="text-base text-[#282441] font-inter font-normal capitalize">
                     headphone
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-base text-[#272343] font-inter font-normal capitalize">
+                  <Link className="text-base text-[#282441] font-inter font-normal capitalize">
                     other devices
                   </Link>
                 </li>
@@ -90,27 +90,27 @@ const Footer = () => {
             </div>
 
             <div className="footer_wrapper">
-              <h3 className="text-xl text-[#9a9caa] font-inter font-medium uppercase">
+              <h3 className="text-xl text-[#9fa1ac] font-inter font-medium uppercase">
                 support
               </h3>
               <ul className="space-y-2 mt-4">
                 <li>
-                  <Link className="text-base text-[#272343] font-inter font-normal capitalize">
+                  <Link className="text-base text-[#282441] font-inter font-normal capitalize">
                     help & support
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-base text-[#272343] font-inter font-normal capitalize">
+                  <Link className="text-base text-[#282441] font-inter font-normal capitalize">
                     tearms & condition
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-base text-[#272343] font-inter font-normal capitalize">
+                  <Link className="text-base text-[#282441] font-inter font-normal capitalize">
                     privacy policy
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-base text-[#272343] font-inter font-normal capitalize">
+                  <Link className="text-base text-[#282441] font-inter font-normal capitalize">
                     help
                   </Link>
                 </li>
@@ -118,7 +118,7 @@ const Footer = () => {
             </div>
 
             <div className="newsletter">
-              <h3 className="text-xl text-[#9a9caa] font-inter font-medium uppercase">
+              <h3 className="text-xl text-[#9a9ca7] font-inter font-medium uppercase">
                 newsletter
               </h3>
               <form
@@ -128,11 +128,11 @@ const Footer = () => {
                 <input
                   type="email"
                   placeholder="Your Email.."
-                  className="max-w-[285px] w-full h-[46px] border-[#e1e3e5] border-[1px] rounded-lg pl-2"
+                  className="max-w-[285px] w-full h-[46px] border-[#dfe0e1] border-[1px] rounded-lg pl-2"
                 />
                 <button
                   type="submit"
-                  className="text-base text-white font-semibold capitalize w-[127px] h-[46px] bg-[#007580] rounded-lg cursor-pointer"
+                  className="text-base text-white font-semibold capitalize w-[127px] h-[46px] bg-[#2eb4c0] rounded-lg cursor-pointer"
                 >
                   Subscribe
                 </button>
@@ -146,9 +146,9 @@ const Footer = () => {
         <div className="lg:container mx-auto">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-base text-[#9a9caa] font-normal font-inter">
+              <p className="text-base text-[#a1a3b0] font-normal font-inter">
                 @ 2025 Quang Thắng{" "}
-                <span className="text-[#272343]">Zenki</span>
+                <span className="text-[#282441]">Zenki</span>
               </p>
             </div>
             <div className="flex items-center gap-3.5">

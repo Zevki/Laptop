@@ -44,14 +44,14 @@ const Navbar = () => {
       </div>
 
       {/* navbar middle  */}
-      <div className="navbar_middle flex items-center justify-center bg-[#f0f2f3] w-full h-[84px]">
+      <div className="navbar_middle flex items-center justify-center bg-[#eaeff2] w-full h-[84px]">
         <div className="lg:container grid grid-cols-3 items-center">
           <div className="logo_wrapper">
             <Link
               to="/"
               className="text-3xl text-black font-inter font-medium capitalize flex items-center gap-2"
             >
-              <Laptop size="2rem" color="#029fae" /> LaptopTZ
+              <Laptop size="2rem" color="##2eb4c0" /> LaptopTZ
             </Link>
           </div>
 
@@ -73,7 +73,7 @@ const Navbar = () => {
           <div className="navbar_middle_right flex items-center gap-4">
             <button className="btn capitalize">
               <ShoppingCart /> cart{" "}
-              <div className="badge badge-sm bg-[#029fae]">2</div>
+              <div className="badge badge-sm bg-[#2eb4c0]">0</div>
             </button>
             <button className="btn capitalize">
               <Heart />
@@ -104,7 +104,7 @@ const Navbar = () => {
       </div>
 
       {/* navbar bottom  */}
-      <div className="navbar_bottom flex items-center justify-center w-full h-[75px] bg-white border-b-[1px] border-[#e1e3e5]">
+      <div className="navbar_bottom flex items-center justify-center w-full h-[75px] bg-white border-b-[1px] border-[#d7d9db]">
         <div className="lg:container flex items-center justify-between">
           <div className="navbar_bottom_left flex items-center gap-8">
             <div className="dropdown dropdown-start">
@@ -141,27 +141,27 @@ const Navbar = () => {
             <nav className="flex items-center gap-8">
               <NavLink
                 to="/"
-                className="text-sm text-[#029fae] font-inter font-medium capitalize"
+                className="text-sm text-[#2eb4c0] font-inter font-medium capitalize"
               >
                 Home
               </NavLink>
-              <NavLink className="text-sm text-[#636270] font-inter font-medium capitalize">
+              <NavLink className="text-sm text-[#666672] font-inter font-medium capitalize">
                 shop
               </NavLink>
-              <NavLink className="text-sm text-[#636270] font-inter font-medium capitalize">
+              <NavLink className="text-sm text-[#666672] font-inter font-medium capitalize">
                 product
               </NavLink>
-              <NavLink className="text-sm text-[#636270] font-inter font-medium capitalize">
+              <NavLink className="text-sm text-[#666672] font-inter font-medium capitalize">
                 pages
               </NavLink>
-              <NavLink className="text-sm text-[#636270] font-inter font-medium capitalize">
+              <NavLink className="text-sm text-[#666672] font-inter font-medium capitalize">
                 about
               </NavLink>
             </nav>
           </div>
 
           <div className="navbar_bottom_right">
-            <p className="text-sm text-[#636270] font-inter font-normal capitalize">
+            <p className="text-sm text-[#666672] font-inter font-normal capitalize">
               contact: <span className="text-[#272343]">0931146612</span>
             </p>
           </div>
